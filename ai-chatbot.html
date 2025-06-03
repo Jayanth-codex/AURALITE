@@ -1,0 +1,61 @@
+<!-- ai-chatbot.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Chatbot Assistant | AuraLite</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="C:\Users\jayan\OneDrive\Pictures\AURALITE\assests\bg-loop.mp4.mp4" type="video/mp4" />
+    </video>
+
+    <div class="video-overlay"></div>
+    <div class="cursor" id="cursor"></div>
+
+    <header class="navbar">
+        <h1 class="logo">AuraLite</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" data-aos="fade-in">
+        <h2>AI Chatbot Assistant</h2>
+        <p>Revolutionize support and engagement with our smart, always-online chatbot.</p>
+    </section>
+
+    <section class="about" data-aos="fade-up">
+        <h2>Project Overview</h2>
+        <p>
+            This chatbot was developed to automate customer service, sales qualification,
+            and appointment booking. Built with advanced NLP (Natural Language Processing)
+            and integrated into multiple platforms, it works 24/7 to handle user queries.
+        </p>
+    </section>
+
+    <section class="about" data-aos="fade-up">
+        <h2>Features</h2>
+        <ul style="list-style: none; padding: 0;">
+            <li>💬 Contextual chat powered by OpenAI & RASA</li>
+            <li>🛒 Built-in sales funnel logic</li>
+            <li>🌍 Multi-language support</li>
+            <li>📱 Cross-platform: Messenger, WhatsApp, Web</li>
+        </ul>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

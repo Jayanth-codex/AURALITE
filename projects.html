@@ -1,0 +1,58 @@
+<!-- projects.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Projects | AuraLite</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="C:\Users\jayan\OneDrive\Pictures\AURALITE\assests\bg-loop.mp4.mp4" type="video/mp4" />
+    </video>
+
+    <div class="video-overlay"></div>
+    <div class="cursor" id="cursor"></div>
+
+    <header class="navbar">
+        <h1 class="logo">AuraLite</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Projects</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" data-aos="zoom-in">
+        <h2>Our Featured Projects</h2>
+        <p>Explore what we’ve created in the world of AI and web development.</p>
+    </section>
+
+    <section class="projects-list">
+        <div class="project-card" data-aos="fade-up">
+            <img src="assets/ai-chatbot.png" alt="AI Chatbot" />
+            <h3>AI Chatbot Assistant</h3>
+            <p>Conversational AI bot trained for sales, support, and automation.</p>
+            <a href="ai-chatbot.html" class="btn-glow">View Project</a>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/portfolio-site.png" alt="Portfolio Website" />
+            <h3>Dynamic Portfolio Site</h3>
+            <p>A high-performance responsive portfolio for client acquisition.</p>
+            <a href="portfolio-site.html" class="btn-glow">View Project</a>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
